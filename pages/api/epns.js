@@ -8,9 +8,9 @@ export default async function handler(req, res) {
 
     const tx = await epnsSdk.sendNotification(
         "0x31d12C7679eC154FdCD7DcE41d85cB04a6f13D11",
-        "Hello from Next App",
+        "WaveShare Notification",
         `${req.query.cid}`,
-        "Hello from Next App",
+        "WaveShare Notification",
         `${req.query.cid}`,
         3,
         `https://ipfs.io/ipfs/${req.query.cid}`,
